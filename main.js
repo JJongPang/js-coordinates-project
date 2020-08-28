@@ -5,8 +5,8 @@ const tag = document.querySelector('.tag');
 
 addEventListener('load', () => {
     const targetRect = target.getBoundingClientRect();
-const targetHalfWidth = targetRect.width / 2;
-const targetHalfHeight = targetRect.height / 2;    
+    const targetHalfWidth = targetRect.width / 2;
+    const targetHalfHeight = targetRect.height / 2;    
 
 document.addEventListener('mousemove', (event) => {
     const x = event.clientX;
