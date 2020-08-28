@@ -19,7 +19,7 @@
 ##### Opertaion = layout, *paint, composition
 
 
-##### paint = 비트맵 형태로 데이터로 변환하여 레이어 단꼐를 만들어서 레이어별로 paint 준비.
+##### paint = 비트맵 형태로 데이터로 변환하여 레이어 단계를 만들어서 레이어별로 paint 준비.
 
 
 ```Javascript
