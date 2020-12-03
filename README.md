@@ -9,18 +9,14 @@
 
 #### Project URL: https://jjongpang.github.io/js-coordinates-project/
 
+<br />
+
 ## 성능 개선
-#### Critical rendering path
-##### requests/response -> loading -> scripting -> rendering -> layout -> painting
-
-##### Construction = DOM, CSSOM, RenderTree
-
-
-##### Opertaion = layout, *paint, composition
-
-
-##### paint = 비트맵 형태로 데이터로 변환하여 레이어 단계를 만들어서 레이어별로 paint 준비.
-
+### Critical rendering path
+- requests/response -> loading -> scripting -> rendering -> layout -> painting
+- Construction = DOM, CSSOM, RenderTree(간략한 DOM 즉 Tag남용, wrapper class남용 등...)
+- Opertaion = layout, *paint, composition
+- paint = 비트맵 형태로 데이터로 변환하여 레이어 단계를 만들어서 레이어별로 paint 준비.
 
 ```Javascript
 //기존 코드
